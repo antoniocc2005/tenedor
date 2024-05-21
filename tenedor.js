@@ -1,19 +1,13 @@
-console.log("l l l")
-console.log("l l l")
-console.log("l l l")
-console.log("l l l")
-console.log("l l l")
-console.log("l_l_l")
-console.log("  l  ")
-console.log("  l  ")
-console.log("  l  ")
-console.log("  l  ")
-console.log("  l  ")
-console.log("  l  ")
-console.log("  l  ")
-console.log("  l  ")
-console.log("  l  ")
-console.log("__l__")
-console.log("\___/")
+const input = require ("pronmpt-sync")()
 
+console.log("El profe estuvo aquí");
 
+let nombre = input ("Mete nombre y te lo diré");
+
+let variable = nombreFunción(nombre, 4);
+console.log(variable);
+
+function nombreFunción(parametro1, parametro2){
+    let variableAmbitoLocalDeLaFunción= parametro1 + parametro2;
+    return variableAmbitoLocalDeLaFunción;
+}
