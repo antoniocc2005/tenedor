@@ -13,3 +13,7 @@ console.log("  l  ")
 console.log("  l  ")
 console.log("  l  ")
 console.log("  l  ")
+console.log("__l__")
+console.log("\___/")
+
+
